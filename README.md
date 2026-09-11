@@ -1,5 +1,7 @@
 # MapTileKit
 
+![MapTileKit running on iPad Screenshot](screenshot_ipad.png)
+
 A MapKit `MKTileOverlay` that renders vector tiles straight out of a local [MBTiles](https://github.com/mapbox/mbtiles-spec) SQLite file — no tile server, no network access, no dependency on Apple's own live basemap.
 
 Point it at an `.mbtiles` file whose tiles are gzip-compressed [Mapbox Vector Tile](https://github.com/mapbox/vector-tile-spec) (MVT) protobuf data, add it to an `MKMapView`, and it handles the rest: reading the right row out of the database, decompressing it, parsing the vector geometry, and rasterizing it into the map.
