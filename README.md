@@ -45,6 +45,10 @@ func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayR
 
 No custom renderer is needed — `TileOverlay` is a standard `MKTileOverlay`, so the stock `MKTileOverlayRenderer` handles drawing it.
 
+## Example
+
+[**pulsely/MapTileKit-Example**](https://github.com/pulsely/MapTileKit-Example) is a minimal iOS app demonstrating this package end to end — one screen, one `MKMapView`, one `TileOverlay`, bundling a small sample MBTiles file. It's the easiest way to see the integration above in a complete, runnable project.
+
 ## How it works
 
 MBTiles stores each `(zoom, column, row)` tile as a blob in a SQLite database. For each tile MapKit asks for, `TileOverlay`:
