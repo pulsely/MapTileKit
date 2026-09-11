@@ -1,6 +1,6 @@
 # MapTileKit
 
-![MapTileKit running on iPad Screenshot](screenshot_ipad.png)
+![MapTileKit running on iPad Screenshot](https://github.com/pulsely/MapTileKit-Example/raw/master/screenshot_ipad.png)
 
 A MapKit `MKTileOverlay` that renders vector tiles straight out of a local [MBTiles](https://github.com/mapbox/mbtiles-spec) SQLite file — no tile server, no network access, no dependency on Apple's own live basemap.
 
